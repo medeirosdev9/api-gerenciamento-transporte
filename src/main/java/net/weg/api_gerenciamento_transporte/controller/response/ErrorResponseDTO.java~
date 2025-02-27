@@ -1,0 +1,4 @@
+package net.weg.api_gerenciamento_transporte.controller.response;
+
+public class ErrorResponseDTO {
+}
