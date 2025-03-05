@@ -28,6 +28,6 @@ public class Veiculo {
     private Motorista motorista;
 
     public VeiculoResponseDTO toDto() {
-        return new VeiculoResponseDTO(this.marca, this.modelo, this.placa);
+        return new VeiculoResponseDTO(this.marca, this.modelo, this.placa,this.motorista.toDto());
     }
 }

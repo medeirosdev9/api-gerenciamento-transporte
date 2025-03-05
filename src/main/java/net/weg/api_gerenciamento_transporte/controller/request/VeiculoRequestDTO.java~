@@ -1,4 +1,0 @@
-package net.weg.api_gerenciamento_transporte.controller.request;
-
-public record VeiculoRequestDTO() {
-}

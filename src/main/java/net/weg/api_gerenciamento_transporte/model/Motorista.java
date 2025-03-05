@@ -30,6 +30,7 @@ public class Motorista {
     private List<Rota> rotas;
 
     public MotoristaResponseDTO toDto() {
-        return new MotoristaResponseDTO(this.id, this.nome, this.email);
+        return new MotoristaResponseDTO(this.id, this.nome, this.email, this.endereco.toDto());
     }
+
 }

@@ -1,4 +1,9 @@
 package net.weg.api_gerenciamento_transporte.controller.response;
 
-public record MotoristaResponseDTO() {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import net.weg.api_gerenciamento_transporte.model.Endereco;
+
+
+public record MotoristaResponseDTO (Long id, String nome, String email, Endereco endereco) {
 }
